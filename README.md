@@ -208,7 +208,6 @@ No modules.
 | <a name="input_is_template"></a> [is\_template](#input\_is\_template) | Whether the repository should be a template repository | `bool` | `false` | no |
 | <a name="input_license_template"></a> [license\_template](#input\_license\_template) | A license template for the repository | `string` | `""` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the repository | `string` | n/a | yes |
-| <a name="input_private"></a> [private](#input\_private) | Whether the repository should be private | `bool` | `false` | no |
 | <a name="input_topics"></a> [topics](#input\_topics) | A list of topics for the repository | `list(string)` | `[]` | no |
 | <a name="input_visibility"></a> [visibility](#input\_visibility) | n/a | `string` | `"public"` | no |
 | <a name="input_vulnerability_alerts"></a> [vulnerability\_alerts](#input\_vulnerability\_alerts) | Whether the repository should have vulnerability alerts enabled | `bool` | `false` | no |
