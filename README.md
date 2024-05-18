@@ -102,7 +102,7 @@ module "github_repository" {
 }
 ```
 
-Sure, here's an advanced usage example of the Terraform module where we override more default values:
+Here's an advanced usage example of the Terraform module where we override more default values:
 
 ```hcl
 module "github_repository" {
