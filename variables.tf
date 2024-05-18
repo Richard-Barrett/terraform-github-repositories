@@ -15,12 +15,6 @@ variable "homepage_url" {
   default     = ""
 }
 
-variable "private" {
-  description = "Whether the repository should be private"
-  type        = bool
-  default     = false
-}
-
 variable "has_issues" {
   description = "Whether the repository should have issues enabled"
   type        = bool
