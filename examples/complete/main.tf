@@ -11,6 +11,6 @@ terraform {
 provider "github" {}
 
 module "github_repository_test" {
-  source = "../.."  # path to the module
+  source = "../.." # path to the module
   name   = "test"
 }
